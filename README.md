@@ -75,7 +75,39 @@ This project implements a simplified **MMC prototype** for grid-following applic
 - Minimal harmonic distortion in output waveforms.
 
 ---
+%% Contributor Information
+contributors = struct(...
+    'Name', {'Ibrahim Okikiola Lawal', 'Jaume Girona Badia'},...
+    'Role', {'Lead Researcher', 'Supervisor'},...
+    'Affiliation', {'UPC', 'UPC'}...
+);
+disp(contributors);
 
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+=========================================================================================
+- Share: Copy and redistribute the material in any medium or format.
+- Adapt: Remix, transform, and build upon the material.
+- Restrictions:
+  * NonCommercial: You may not use the material for commercial purposes.
+  * ShareAlike: If you remix, you must distribute under the same license.
+    
+# Required Toolboxes (Verify via MATLAB command):
+>> license('test', 'Simulink')           % Simulink
+>> license('test', 'Control_System')     % Control System Toolbox
 
+% References.bib
+@article{Lesnicar2003,
+  title={An innovative modular multilevel converter topology},
+  author={Lesnicar, Anton and Marquardt, Rainer},
+  journal={IEEE Bologna Power Tech Conference Proceedings},
+  year={2003}
+}
+
+@mastersthesis{Collados2021,
+  title={Design, control and testing of modular multilevel converter prototype},
+  author={Collados, Carlos},
+  school={Universitat Polit{\`e}cnica de Catalunya},
+  year={2021}
+}
 
 ## 📂 Repository Structure
