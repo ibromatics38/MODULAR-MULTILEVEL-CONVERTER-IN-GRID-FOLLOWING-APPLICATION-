@@ -76,4 +76,48 @@ This project implements a simplified **MMC prototype** for grid-following applic
 
 ---
 
+MMC_GridFollowing/
+├── Simulations/ # MATLAB/Simulink models
+│ ├── MMC_AverageModel.slx # Main Simulink model
+│ └── Control_Modules/ # PR/PI controllers, PLL, etc.
+├── Data/ # Simulation results (CSV/figures)
+├── Docs/ # Project report (PDF) and references
+├── Images/ # Figures for README
+└── README.md
+
+Open Simulink Models:
+
+Launch MMC_AverageModel.slx in MATLAB R2021a or later.
+
+Adjust parameters in System_Parameters.m for custom scenarios.
+
+Run Simulations:
+
+Execute Simulate_MMC.m to generate results.
+
+Analyze outputs in Data/ using MATLAB scripts or Jupyter notebooks.
+
+📦 Dependencies
+MATLAB R2021a+ (with Simulink and Control System Toolbox)
+
+Python 3.8+ (optional for data analysis: NumPy, Pandas, Matplotlib)
+
+👥 Contributors
+Ibrahim Okikiola Lawal - Design, Simulation, and Analysis
+LinkedIn
+
+Jaume Girona Badia - Supervision
+Universitat Politècnica de Catalunya
+
+📜 License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+
+---
+
+## 🛠️ Getting Started
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/MMC_GridFollowing.git
+
 ## 📂 Repository Structure
